@@ -17,10 +17,9 @@ textarea {
 
 .center {
   text-align: center;
-}
-
-.center h1 {
+ h1{
 	margin-bottom: 10px;
+   }
 }
 
 
@@ -62,13 +61,11 @@ p {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
-}
-
-#logo:hover {
+&:hover {
   color: #fff;
   text-decoration: none;
+  } 
 }
-
 img {
   display: none;
 }
@@ -81,26 +78,21 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
-}
-
-footer a {
+a {
   color: #555;
-}
-
-footer a:hover {
+  &:hover {
   color: #222;
+  }
 }
-
-footer small {
+small {
   float: left;
 }
-
-footer ul {
+ul {
   float: right;
   list-style: none;
-}
-
-footer ul li {
+  li {
   float: left;
   margin-left: 15px;
+  }
+ }
 }
